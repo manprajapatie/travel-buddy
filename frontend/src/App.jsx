@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import AppRoutes from './Route/AppRoutes'
 import './App.css'
 
 function App() {
@@ -8,10 +9,7 @@ function App() {
 
   return (
     <>
-     
-      <p className="text-blue-700">
-        Click on the Vite and React logos to learn more
-      </p>
+    <AppRoutes/>
     </>
   )
 }
